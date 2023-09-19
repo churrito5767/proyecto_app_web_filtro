@@ -1,0 +1,45 @@
+body {
+    background-image: url("background.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#upper_label {
+    margin-top: 30px;
+    margin-bottom: 40px;
+    font-size: 50px;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    background: rgb(4,185,0);
+    background: linear-gradient(180deg, rgba(4,185,0,1) 0%, rgba(218,255,45,1) 100%);
+    color: rgb(8, 61, 0);
+    border: solid rgb(0, 117, 18) 5px;
+    border-radius: 20px;
+    height: 100px;
+    width: 1000px;
+    font-weight:bolder;
+}
+
+#save_image-btn {
+    font-size: 25px;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-weight: bold;
+    height: 50px;
+    width: 250px;
+    border: solid rgb(0, 31, 104) 3px;
+    border-radius: 7px;
+    background-color: #0093E9;
+    background-image: linear-gradient(180deg, #0093E9 0%, #80D0C7 100%);
+    color: rgb(0, 33, 57);
+}
+
+#oui {
+    position: fixed;
+    bottom: 0;
+    text-align: center;
+    width: 100%;
+    font-size: 30px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: red;
+    background-color: white;
+    font-weight: bold;
+}
